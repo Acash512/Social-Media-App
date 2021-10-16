@@ -15,7 +15,7 @@ const COL_ID_DEF = {
 }
 
 const COL_USERNAME_DEF = {
-    type:Datatypes.STRING(30),
+    type:Datatypes.STRING(41),
     unique:true,
     allowNull:false
 }
