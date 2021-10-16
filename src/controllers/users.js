@@ -24,3 +24,7 @@ async function createAnonymousUser(){
 
     return user
 }
+
+module.exports = {
+    createAnonymousUser
+}

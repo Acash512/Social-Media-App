@@ -18,3 +18,8 @@ async function showAllCommentsForPost(postId){
 
     return comments
 }
+
+module.exports = {
+    postComment,
+    showAllCommentsForPost
+}

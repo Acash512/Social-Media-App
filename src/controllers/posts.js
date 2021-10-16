@@ -25,3 +25,9 @@ async function showAllPostsForUser(userId){
 
     return posts 
 }
+
+module.exports = {
+    createNewPost,
+    showAllPosts,
+    showAllPostsForUser
+}
