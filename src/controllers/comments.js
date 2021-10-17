@@ -1,6 +1,6 @@
 const {Comments,Users} = require('../db/models')
 
-async function postComment(body,userId,postId){
+async function addComment(body,userId,postId){
     const comment = Comments.create({
         body,
         userId,
@@ -20,6 +20,6 @@ async function showAllCommentsForPost(postId){
 }
 
 module.exports = {
-    postComment,
+    addComment,
     showAllCommentsForPost
 }

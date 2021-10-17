@@ -6,8 +6,8 @@ route.get('/',async function(req,res){
     res.status(200).send(posts)
 })
 
-route.post('/my-posts',async function(req,res){
-    const {userId} = req.body
+route.get('/:userId',async function(req,res){
+    const {userId} = req.params
     
     if(!userId){
         return res.status(400).send({

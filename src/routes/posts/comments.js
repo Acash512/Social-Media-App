@@ -1,7 +1,7 @@
 const route = require('express').Router()
-const {postComment,showAllCommentsForPost} = require('../../controllers/comments')
+const {addComment,showAllCommentsForPost} = require('../../controllers/comments')
 
-route.post('/post-comment',async function(req,res){
+route.post('/add',async function(req,res){
     const {body,userId,postId} = req.body
     
     if((!body) || (!userId) || (!postId)){
@@ -10,11 +10,11 @@ route.post('/post-comment',async function(req,res){
         })
     }
 
-    const comment = await postComment(body,userId,postId)
+    const comment = await addComment(body,userId,postId)
     res.status(201).send(comment)
 })
 
-route.post('/all-comments',async function(req,res){
+route.post('/show',async function(req,res){
     const {postId} = req.body
 
     if(!postId){
