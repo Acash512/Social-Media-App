@@ -6,7 +6,7 @@
 }
 
 #footer{
-    position: sticky;
+    position: relative;
     bottom: 0px;
     background-color: var(--light);
     z-index: 1;
