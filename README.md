@@ -72,14 +72,10 @@ _See API documentation [here](API-Documentation.md)_
 
 ## Screenshots  
 
-|<img src="screenshots/all-posts.png" width="400">|<img src="screenshots/new-post.png" width="400">|
-|---|---| 
-
-|<img src="screenshots/success.png" width="400">|<img src="screenshots/my-posts.png" width="400">|
-|---|---| 
-
-|<img src="screenshots/post-comment.png" width="400">|<img src="screenshots/view-comments.png" width="400">|
-|---|---| 
-
-<img src="screenshots/responsive-ui.png" width="200">|
-|---|
+<img src="screenshots/all-posts.png">
+<img src="screenshots/new-post.png">
+<img src="screenshots/success.png">
+<img src="screenshots/my-posts.png">
+<img src="screenshots/post-comment.png">
+<img src="screenshots/view-comments.png">
+<img src="screenshots/responsive-ui.png">
